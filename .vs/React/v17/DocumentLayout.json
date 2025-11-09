@@ -1,0 +1,589 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Games\\Projeler\\React\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C567B7AC-77B4-4991-93CF-42D6B1A59CC5}|Entitie\\Entities.csproj|c:\\games\\projeler\\react\\entitie\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C567B7AC-77B4-4991-93CF-42D6B1A59CC5}|Entitie\\Entities.csproj|solutionrelative:entitie\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\extensions\\studentrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\infrastructure\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\infrastructure\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\adminstudents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\adminstudents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\context\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\context\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\contracts\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\react.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\react.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\migrations\\20251108184331_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\migrations\\20251108184331_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\App.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\App.jsx",
+              "RelativeToolTip": "react.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-02T13:23:56.373Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvxQAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:37:11.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\Entitie\\Dtos\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Entitie\\Dtos\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\Entitie\\Dtos\\ChangePasswordDto.cs",
+              "RelativeToolTip": "Entitie\\Dtos\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:36:06.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentRepositoryExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:35:49.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Program.cs",
+              "RelativeDocumentMoniker": "React.Server\\Program.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Program.cs",
+              "RelativeToolTip": "React.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T17:13:33.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "React.Server\\Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "React.Server\\Infrastructure\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA6wDkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T17:09:19.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAowAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T19:22:34.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAvwNcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T17:09:56.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "React.Server\\appsettings.json",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\appsettings.json",
+              "RelativeToolTip": "React.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T17:14:43.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:43:05.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePassword.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\ChangePassword.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\ChangePassword.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\ChangePassword.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\ChangePassword.jsx",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAuwLkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:02:31.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentDashboard.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\StudentDashboard.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\StudentDashboard.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\StudentDashboard.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\StudentDashboard.jsx",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAuwFEBAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:32:56.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthContext.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\context\\AuthContext.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\context\\AuthContext.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\context\\AuthContext.jsx",
+              "RelativeToolTip": "react.client\\src\\context\\AuthContext.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:00:55.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminStudents.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\AdminStudents.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\AdminStudents.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\AdminStudents.jsx",
+              "RelativeToolTip": "react.client\\src\\AdminStudents.jsx",
+              "ViewState": "AgIAALYCAAAAAAAAAAAiwMoCAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:32:57.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Login.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\Login.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Login.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\Login.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:01:43.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\App.css",
+              "RelativeDocumentMoniker": "react.client\\src\\App.css",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\App.css",
+              "RelativeToolTip": "react.client\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-28T21:20:20.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "eslint.config.js",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\eslint.config.js",
+              "RelativeDocumentMoniker": "react.client\\eslint.config.js",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\eslint.config.js",
+              "RelativeToolTip": "react.client\\eslint.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-28T21:41:51.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\vite.config.js",
+              "RelativeDocumentMoniker": "react.client\\vite.config.js",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\vite.config.js",
+              "RelativeToolTip": "react.client\\vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-02T12:35:48.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Register.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\Register.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Register.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\Register.jsx",
+              "ViewState": "AgIAAB8BAAAAAAAAAADwv0QBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:01:56.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\main.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\main.jsx",
+              "RelativeToolTip": "react.client\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-28T21:09:02.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\index.css",
+              "RelativeDocumentMoniker": "react.client\\src\\index.css",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\index.css",
+              "RelativeToolTip": "react.client\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-28T21:41:43.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwEAAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:35:10.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20251108184331_start.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Migrations\\20251108184331_start.cs",
+              "RelativeDocumentMoniker": "React.Server\\Migrations\\20251108184331_start.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Migrations\\20251108184331_start.cs",
+              "RelativeToolTip": "React.Server\\Migrations\\20251108184331_start.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T18:43:31.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "react.client\\.vscode\\launch.json",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\.vscode\\launch.json",
+              "RelativeToolTip": "react.client\\.vscode\\launch.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T21:32:31.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAuwEkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:51:23.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\index.html",
+              "RelativeDocumentMoniker": "react.client\\index.html",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\index.html",
+              "RelativeToolTip": "react.client\\index.html",
+              "ViewState": "AgIAAEUAAAAAAAAAAADwv2gAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-28T21:41:49.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ServiceManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:24:48.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "React.Server\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "React.Server\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:02:59.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "React.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "React.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T21:36:20.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:52:20.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "React.Server.csproj",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\React.Server.csproj",
+              "RelativeDocumentMoniker": "React.Server\\React.Server.csproj",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\React.Server.csproj",
+              "RelativeToolTip": "React.Server\\React.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T21:41:54.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T20:57:41.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T17:09:35.519Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

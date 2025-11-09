@@ -1,0 +1,11 @@
+C:\Games\Projeler\React\Entitie\bin\Debug\net8.0\Entities.deps.json
+C:\Games\Projeler\React\Entitie\bin\Debug\net8.0\Entities.dll
+C:\Games\Projeler\React\Entitie\bin\Debug\net8.0\Entities.pdb
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\Entities.dll
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\refint\Entities.dll
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\Entities.pdb
+C:\Games\Projeler\React\Entitie\obj\Debug\net8.0\ref\Entities.dll
