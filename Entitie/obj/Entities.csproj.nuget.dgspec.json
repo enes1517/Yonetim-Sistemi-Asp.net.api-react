@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Games\\Projeler\\React\\Entities\\Entities.csproj": {}
+    "C:\\Games\\Projeler\\React\\Entitie\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Games\\Projeler\\React\\Entities\\Entities.csproj": {
+    "C:\\Games\\Projeler\\React\\Entitie\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Games\\Projeler\\React\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Games\\Projeler\\React\\Entitie\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Games\\Projeler\\React\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Games\\Projeler\\React\\Entitie\\Entities.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Games\\Projeler\\React\\Entities\\obj\\",
+        "outputPath": "C:\\Games\\Projeler\\React\\Entitie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

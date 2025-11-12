@@ -1,6 +1,51 @@
-﻿// YENİ: ChangePassword bileşeni import edildi
-import { useState, useEffect } from 'react';
-import ChangePassword from './ChangePassword'; // Bileşenin yolunu kontrol edin
+﻿import { useState, useEffect } from 'react';
+import ChangePassword from './ChangePassword';
+
+// --- İKONLAR (Admin ile aynı) ---
+const LogoutIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+    </svg>
+);
+const CalendarIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+    </svg>
+);
+const CheckIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+);
+const ErrorIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+);
+const CloseIcon = () => (
+    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+    </svg>
+);
+const LockIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+    </svg>
+);
+
+// --- YARDIMCI FONKSİYON ---
+const formatDate = (dateString) => {
+    if (!dateString) return 'N/A';
+    try {
+        return new Date(dateString).toLocaleDateString('tr-TR', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    } catch {
+        return dateString;
+    }
+};
 
 const StudentDashboard = () => {
     const [activeTab, setActiveTab] = useState('projects');
@@ -28,6 +73,15 @@ const StudentDashboard = () => {
         }
     }, [activeTab]);
 
+    useEffect(() => {
+        if (activeTab === 'projects') loadProjects();
+    }, [filters]);
+
+    const showMessage = (setter, message) => {
+        setter(message);
+        setTimeout(() => setter(''), 4000);
+    };
+
     const loadProjects = async () => {
         setLoading(true);
         setError('');
@@ -47,16 +101,13 @@ const StudentDashboard = () => {
                 throw new Error(data.message);
             }
         } catch (err) {
-            setError(err.message);
+            showMessage(setError, err.message || "Projeler yüklenemedi.");
         } finally {
             setLoading(false);
         }
     };
 
     const loadMyProjects = async () => {
-        if (activeTab === 'myprojects') {
-            setLoading(true);
-        }
         setError('');
         try {
             const response = await fetch('/api/student/MyProjects', {
@@ -71,11 +122,7 @@ const StudentDashboard = () => {
                 throw new Error(data.message);
             }
         } catch (err) {
-            setError(err.message);
-        } finally {
-            if (activeTab === 'myprojects') {
-                setLoading(false);
-            }
+            showMessage(setError, err.message || "Başvurular yüklenemedi.");
         }
     };
 
@@ -94,7 +141,7 @@ const StudentDashboard = () => {
                 throw new Error(data.message);
             }
         } catch (err) {
-            setError(err.message);
+            showMessage(setError, err.message || "Profil yüklenemedi.");
         } finally {
             setLoading(false);
         }
@@ -112,21 +159,17 @@ const StudentDashboard = () => {
             const data = await response.json();
 
             if (data.success) {
-                setSuccess('Projeye başarıyla başvurdunuz!');
-                setTimeout(() => setSuccess(''), 3000);
-
-                setAppliedProjectIds(prevIds => new Set(prevIds).add(projectId));
-
-                const newProject = projects.find(p => p.id === projectId);
-                if (newProject) {
-                    setMyProjects(prevMyProjects => [...prevMyProjects, newProject]);
+                showMessage(setSuccess, 'Projeye başarıyla başvurdunuz!');
+                setAppliedProjectIds(prev => new Set(prev).add(projectId));
+                const project = projects.find(p => p.id === projectId);
+                if (project) {
+                    setMyProjects(prev => [...prev, project]);
                 }
             } else {
                 throw new Error(data.message);
             }
         } catch (err) {
-            setError(err.message);
-            setTimeout(() => setError(''), 3000);
+            showMessage(setError, err.message || "Başvuru başarısız.");
         }
     };
 
@@ -143,122 +186,112 @@ const StudentDashboard = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gray-50">
-            <nav className="bg-white shadow-md">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex justify-between h-16">
-                        <div className="flex items-center">
-                            <h1 className="text-2xl font-bold text-indigo-600">Öğrenci Paneli</h1>
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+            {/* NAVBAR */}
+            <nav className="backdrop-blur-2xl bg-white/10 border-b border-white/10 sticky top-0 z-50">
+                <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+                    <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 flex items-center justify-center text-white font-bold text-xl">
+                            S
                         </div>
-                        <div className="flex items-center gap-4">
-                            <button
-                                onClick={handleLogout}
-                                className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition"
-                            >
-                                Çıkış Yap
-                            </button>
-                        </div>
+                        <h1 className="text-3xl font-extrabold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+                            Öğrenci Paneli
+                        </h1>
                     </div>
+                    <button
+                        onClick={handleLogout}
+                        className="px-6 py-3 bg-gradient-to-r from-red-500 to-pink-600 rounded-xl font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                    >
+                        <LogoutIcon />
+                        Çıkış Yap
+                    </button>
                 </div>
             </nav>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="max-w-7xl mx-auto px-6 py-10">
+                {/* MESAJLAR */}
                 {(error || success) && (
-                    <div className={`mb-6 p-4 rounded-lg ${error ? 'bg-red-50 text-red-700 border border-red-200' : 'bg-green-50 text-green-700 border border-green-200'}`}>
-                        {error || success}
+                    <div className={`mb-8 p-5 rounded-2xl backdrop-blur-xl border ${error ? 'bg-red-500/20 border-red-400' : 'bg-emerald-500/20 border-emerald-400'} flex items-center gap-3 animate-fadeIn`}>
+                        {error ? <ErrorIcon /> : <CheckIcon />}
+                        <span className="font-medium">{error || success}</span>
                     </div>
                 )}
 
-                <div className="mb-6 border-b border-gray-200">
-                    <div className="flex gap-4">
+                {/* TABLAR */}
+                <div className="mb-10 flex gap-2 p-1 bg-white/10 backdrop-blur-xl rounded-2xl shadow-inner border border-white/20">
+                    {['projects', 'myprojects', 'profile'].map((tab) => (
                         <button
-                            onClick={() => setActiveTab('projects')}
-                            className={`px-6 py-3 font-semibold border-b-2 transition ${activeTab === 'projects'
-                                ? 'border-indigo-600 text-indigo-600'
-                                : 'border-transparent text-gray-600 hover:text-gray-800'
+                            key={tab}
+                            onClick={() => setActiveTab(tab)}
+                            className={`flex-1 py-4 px-8 rounded-xl font-bold text-lg transition-all ${activeTab === tab
+                                ? 'bg-gradient-to-r from-emerald-500 to-teal-600 shadow-lg'
+                                : 'hover:bg-white/10'
                                 }`}
                         >
-                            Tüm Projeler
+                            {tab === 'projects' && 'Tüm Projeler'}
+                            {tab === 'myprojects' && 'Başvurularım'}
+                            {tab === 'profile' && 'Profilim'}
                         </button>
-                        <button
-                            onClick={() => setActiveTab('myprojects')}
-                            className={`px-6 py-3 font-semibold border-b-2 transition ${activeTab === 'myprojects'
-                                ? 'border-indigo-600 text-indigo-600'
-                                : 'border-transparent text-gray-600 hover:text-gray-800'
-                                }`}
-                        >
-                            Başvurularım
-                        </button>
-                        <button
-                            onClick={() => setActiveTab('profile')}
-                            className={`px-6 py-3 font-semibold border-b-2 transition ${activeTab === 'profile'
-                                ? 'border-indigo-600 text-indigo-600'
-                                : 'border-transparent text-gray-600 hover:text-gray-800'
-                                }`}
-                        >
-                            Profilim
-                        </button>
-                    </div>
+                    ))}
                 </div>
 
+                {/* TÜM PROJELER */}
                 {activeTab === 'projects' && (
                     <div>
-                        <div className="bg-white rounded-lg shadow p-6 mb-6">
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 mb-8 border border-white/20">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
                                 <input
                                     type="text"
                                     placeholder="Proje ara..."
                                     value={filters.search}
                                     onChange={(e) => setFilters({ ...filters, search: e.target.value })}
-                                    className="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                                    className="px-5 py-3.5 bg-white/10 border border-white/20 rounded-xl focus:ring-4 focus:ring-emerald-500 placeholder-gray-400"
                                 />
                                 <input
                                     type="date"
                                     value={filters.date}
                                     onChange={(e) => setFilters({ ...filters, date: e.target.value })}
-                                    className="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                                    className="px-5 py-3.5 bg-white/10 border border-white/20 rounded-xl focus:ring-4 focus:ring-emerald-500"
                                 />
                             </div>
                             <button
                                 onClick={loadProjects}
-                                className="mt-4 px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
+                                className="w-full md:w-auto px-8 py-3.5 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-xl font-bold hover:shadow-xl hover:scale-105 transition-all"
                             >
                                 Filtrele
                             </button>
                         </div>
 
                         {loading ? (
-                            <div className="text-center py-12">
-                                <div className="inline-block w-12 h-12 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
+                            <div className="flex justify-center py-20">
+                                <div className="w-16 h-16 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin"></div>
+                            </div>
+                        ) : projects.length === 0 ? (
+                            <div className="text-center py-20 bg-white/10 backdrop-blur-xl rounded-3xl border border-white/20">
+                                <p className="text-xl text-gray-300">Proje bulunamadı.</p>
                             </div>
                         ) : (
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {projects.map((project) => {
                                     const isApplied = appliedProjectIds.has(project.id);
-
                                     return (
-                                        <div key={project.id} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                                            <h3 className="text-xl font-bold text-gray-800 mb-2">{project.name}</h3>
-                                            <p className="text-gray-600 mb-4">{project.description}</p>
-                                            <p className="text-sm text-gray-500 mb-4">
-                                                Son Tarih: {new Date(project.deadline).toLocaleDateString('tr-TR')}
+                                        <div key={project.id} className="group bg-white/10 backdrop-blur-xl rounded-3xl p-6 border border-white/20 hover:bg-white/20 transition-all">
+                                            <h3 className="text-xl font-bold text-white mb-2">{project.name}</h3>
+                                            <p className="text-gray-300 mb-4 line-clamp-2">{project.description}</p>
+                                            <p className="text-sm text-gray-400 mb-5 flex items-center gap-2">
+                                                <CalendarIcon />
+                                                {formatDate(project.deadline)}
                                             </p>
-
-                                            {isApplied ? (
-                                                <button
-                                                    disabled
-                                                    className="w-full px-4 py-2 bg-gray-300 text-gray-600 rounded-lg cursor-not-allowed"
-                                                >
-                                                    Başvuruldu
-                                                </button>
-                                            ) : (
-                                                <button
-                                                    onClick={() => applyToProject(project.id)}
-                                                    className="w-full px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition"
-                                                >
-                                                    Başvur
-                                                </button>
-                                            )}
+                                            <button
+                                                onClick={() => !isApplied && applyToProject(project.id)}
+                                                disabled={isApplied}
+                                                className={`w-full py-3.5 rounded-xl font-semibold transition-all ${isApplied
+                                                    ? 'bg-gray-600 text-gray-400 cursor-not-allowed'
+                                                    : 'bg-gradient-to-r from-emerald-500 to-teal-600 hover:shadow-lg hover:scale-105'
+                                                    }`}
+                                            >
+                                                {isApplied ? 'Başvuruldu' : 'Hemen Başvur'}
+                                            </button>
                                         </div>
                                     );
                                 })}
@@ -267,24 +300,22 @@ const StudentDashboard = () => {
                     </div>
                 )}
 
+                {/* BAŞVURULARIM */}
                 {activeTab === 'myprojects' && (
                     <div>
-                        {loading ? (
-                            <div className="text-center py-12">
-                                <div className="inline-block w-12 h-12 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
-                            </div>
-                        ) : myProjects.length === 0 ? (
-                            <div className="text-center py-12 bg-white rounded-lg shadow">
-                                <p className="text-gray-600">Henüz hiçbir projeye başvurmadınız.</p>
+                        {myProjects.length === 0 ? (
+                            <div className="text-center py-20 bg-white/10 backdrop-blur-xl rounded-3xl border border-white/20">
+                                <p className="text-xl text-gray-300">Henüz projeye başvurmadınız.</p>
                             </div>
                         ) : (
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {myProjects.map((project) => (
-                                    <div key={project.id} className="bg-white rounded-lg shadow-md p-6">
-                                        <h3 className="text-xl font-bold text-gray-800 mb-2">{project.name}</h3>
-                                        <p className="text-gray-600 mb-4">{project.description}</p>
-                                        <p className="text-sm text-gray-500">
-                                            Son Tarih: {new Date(project.deadline).toLocaleDateString('tr-TR')}
+                                    <div key={project.id} className="bg-gradient-to-br from-emerald-900/30 to-teal-900/30 rounded-3xl p-6 border border-emerald-500/30">
+                                        <h3 className="text-xl font-bold text-emerald-300 mb-2">{project.name}</h3>
+                                        <p className="text-gray-300 mb-3">{project.description}</p>
+                                        <p className="text-sm text-emerald-400 flex items-center gap-2">
+                                            <CalendarIcon />
+                                            {formatDate(project.deadline)}
                                         </p>
                                     </div>
                                 ))}
@@ -293,59 +324,59 @@ const StudentDashboard = () => {
                     </div>
                 )}
 
+                {/* PROFİL */}
                 {activeTab === 'profile' && profile && (
-                    <div className="bg-white rounded-lg shadow-lg p-8">
-                        <h2 className="text-2xl font-bold text-gray-800 mb-6">Profil Bilgilerim</h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                            <div>
-                                <p className="text-sm text-gray-600 mb-1">Ad Soyad</p>
-                                <p className="text-lg font-semibold">{profile.student.name} {profile.student.surname}</p>
-                            </div>
-                            <div>
-                                <p className="text-sm text-gray-600 mb-1">Öğrenci No</p>
-                                <p className="text-lg font-semibold">{profile.student.studentNumber}</p>
-                            </div>
-                            <div>
-                                <p className="text-sm text-gray-600 mb-1">Email</p>
-                                <p className="text-lg font-semibold">{profile.student.email}</p>
-                            </div>
-                            <div>
-                                <p className="text-sm text-gray-600 mb-1">Durum</p>
-                                <span className={`px-3 py-1 rounded-full text-sm font-semibold ${profile.student.status === 'Approved' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
-                                    }`}>
-                                    {profile.student.status}
-                                </span>
-                            </div>
-                            <div className="md:col-span-2">
-                                <p className="text-sm text-gray-600 mb-1">Teknolojiler</p>
-                                <p className="text-lg font-semibold">
-                                    {Array.isArray(profile.student.technologies)
-                                        ? profile.student.technologies.join(', ')
-                                        : profile.student.technologies
-                                    }
-                                </p>
+                    <div className="bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-10 border border-white/20">
+                        <h2 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-8">Profil Bilgilerim</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                            {[
+                                { label: 'Ad Soyad', value: `${profile.student.name} ${profile.student.surname}` },
+                                { label: 'Öğrenci No', value: profile.student.studentNumber },
+                                { label: 'Email', value: profile.student.email },
+                                { label: 'Durum', value: profile.student.status, badge: true }
+                            ].map((item, i) => (
+                                <div key={i} className="space-y-2">
+                                    <p className="text-sm text-gray-400 font-medium">{item.label}</p>
+                                    {item.badge ? (
+                                        <span className={`px-4 py-1.5 rounded-full text-sm font-bold ${profile.student.status === 'Approved' ? 'bg-emerald-500/30 text-emerald-300' : 'bg-amber-500/30 text-amber-300'}`}>
+                                            {item.value}
+                                        </span>
+                                    ) : (
+                                        <p className="text-lg font-bold text-white">{item.value}</p>
+                                    )}
+                                </div>
+                            ))}
+                            <div className="md:col-span-2 space-y-2">
+                                <p className="text-sm text-gray-400 font-medium">Teknolojiler</p>
+                                <div className="flex flex-wrap gap-2">
+                                    {(Array.isArray(profile.student.technologies) ? profile.student.technologies : [profile.student.technologies]).map((tech, i) => (
+                                        <span key={i} className="px-3 py-1.5 bg-emerald-500/30 text-emerald-300 rounded-full text-sm font-medium">
+                                            {tech}
+                                        </span>
+                                    ))}
+                                </div>
                             </div>
                         </div>
 
                         <button
                             onClick={() => setShowPasswordModal(true)}
-                            className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+                            className="px-8 py-3.5 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-xl font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200 flex items-center gap-2"
                         >
-                            Şifre Değiştir
+                            <LockIcon /> Şifre Değiştir
                         </button>
 
-                        <div className="mt-8 border-t pt-6">
-                            <h3 className="text-xl font-bold text-gray-800 mb-4">
+                        <div className="mt-12 pt-8 border-t border-white/10">
+                            <h3 className="text-xl font-bold text-white mb-6">
                                 Başvurduğum Projeler ({profile.applicationCount}/3)
                             </h3>
                             {profile.projects.length === 0 ? (
-                                <p className="text-gray-600">Henüz hiçbir projeye başvurmadınız.</p>
+                                <p className="text-gray-400">Henüz başvuru yapmadınız.</p>
                             ) : (
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                                     {profile.projects.map((project) => (
-                                        <div key={project.id} className="p-4 border rounded-lg">
-                                            <h4 className="font-semibold text-gray-800">{project.name}</h4>
-                                            <p className="text-sm text-gray-600 mt-1">{project.description}</p>
+                                        <div key={project.id} className="p-5 bg-gradient-to-r from-emerald-900/20 to-teal-900/20 rounded-2xl border border-emerald-500/30">
+                                            <h4 className="font-bold text-emerald-300">{project.name}</h4>
+                                            <p className="text-sm text-gray-300 mt-1">{project.description}</p>
                                         </div>
                                     ))}
                                 </div>
@@ -355,33 +386,21 @@ const StudentDashboard = () => {
                 )}
             </div>
 
-            {/* GÜNCELLENDİ: Şifre Değiştirme Modalı */}
+            {/* ŞİFRE MODALI */}
             {showPasswordModal && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4">
-                    {/* Dışarıya tıklandığında kapatmak için (isteğe bağlı):
-                      <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4"
-                           onClick={() => setShowPasswordModal(false)}>
-                      
-                      Forma tıklandığında modalın kapanmasını engellemek için (isteğe bağlı):
-                      <div onClick={(e) => e.stopPropagation()}>
-                    */}
-
-                    <ChangePassword
-                        onSuccess={() => {
-                            // ChangePassword bileşeni zaten kendi başarı mesajını gösteriyor.
-                            // Başarılı olunca modal'ı kapatıyoruz.
-                            setShowPasswordModal(false);
-                        }}
-                        onCancel={() => {
-                            // İptal edilince modal'ı kapatıyoruz.
-                            setShowPasswordModal(false);
-                        }}
-                    />
-
-                    {/* (isteğe bağlı) Kapatma div'lerini eklediyseniz:
-                      </div>
-                      </div>
-                    */}
+                <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-6">
+                    <div className="bg-gradient-to-br from-purple-900 to-slate-900 rounded-3xl p-8 max-w-md w-full border border-white/20 shadow-2xl">
+                        <div className="flex justify-between items-center mb-6">
+                            <h3 className="text-xl font-bold">Şifre Değiştir</h3>
+                            <button onClick={() => setShowPasswordModal(false)} className="text-gray-400 hover:text-white">
+                                <CloseIcon />
+                            </button>
+                        </div>
+                        <ChangePassword
+                            onSuccess={() => setShowPasswordModal(false)}
+                            onCancel={() => setShowPasswordModal(false)}
+                        />
+                    </div>
                 </div>
             )}
         </div>

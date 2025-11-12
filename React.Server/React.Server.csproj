@@ -22,9 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Users\HP\Desktop\YönetimSistemi\Repositoriess\Repositories.csproj" />
     <ProjectReference Include="..\..\..\..\Users\HP\Desktop\YönetimSistemi\Servicess\Services.csproj" />
-    <ProjectReference Include="..\Entitie\Entities.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\react.client\react.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>

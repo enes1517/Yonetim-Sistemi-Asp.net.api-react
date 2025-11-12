@@ -12,7 +12,6 @@
           "Microsoft.AspNetCore.SpaProxy": "8.0.21",
           "Microsoft.EntityFrameworkCore.Design": "9.0.9",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.3",
-          "Repositories": "1.0.0",
           "Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },

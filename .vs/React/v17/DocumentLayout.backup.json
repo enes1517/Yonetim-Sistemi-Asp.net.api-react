@@ -3,18 +3,106 @@
   "WorkspaceRootPath": "C:\\Games\\Projeler\\React\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/react/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/react/True/SqlTable/dbo.Projects.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/react/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\adminstudents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\adminstudents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\contracts\\iprojectapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\contracts\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\contracts\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\contracts\\iprojectapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\projectapplicationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\extensions\\projectrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\extensions\\studentrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\contracts\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\contracts\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\projectapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C567B7AC-77B4-4991-93CF-42D6B1A59CC5}|Entitie\\Entities.csproj|c:\\games\\projeler\\react\\entitie\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C567B7AC-77B4-4991-93CF-42D6B1A59CC5}|Entitie\\Entities.csproj|solutionrelative:entitie\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B1451E0-7139-3AF2-8646-B6213E2CC648}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Repositories.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\repositoriess\\extensions\\studentrepositoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\infrastructure\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,44 +117,8 @@
       "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\changepassword.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\studentdashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\adminstudents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\adminstudents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\context\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\context\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -85,21 +137,7 @@
       "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\studentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|solutionrelative:react.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\projectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602AFEF4-DE05-C742-83CA-57623E88133D}|react.client\\react.client.esproj|c:\\games\\projeler\\react\\react.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -108,9 +146,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|solutionrelative:react.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA351256-929F-6C6E-BD21-FA25FEFB69AB}|..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Services.csproj|c:\\users\\hp\\desktop\\y\u00F6netimsistemi\\servicess\\contracts\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5213B8B3-D2D7-47F0-85AB-309AB3616A7D}|React.Server\\React.Server.csproj|c:\\games\\projeler\\react\\react.server\\react.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -135,20 +170,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "react.client\\src\\App.jsx",
               "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\App.jsx",
               "RelativeToolTip": "react.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-11-02T13:23:56.373Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -159,61 +195,357 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Students [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/react/True/SqlTable/dbo.Students.sql",
+              "ToolTip": "dbo.Students [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-12T12:46:27.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
-              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADgvwsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:37:11.541Z",
+              "DocumentIndex": 1,
+              "Title": "dbo.Projects [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/react/True/SqlTable/dbo.Projects.sql",
+              "ToolTip": "dbo.Projects [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-12T12:46:17.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChangePasswordDto.cs",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\Entitie\\Dtos\\ChangePasswordDto.cs",
-              "RelativeDocumentMoniker": "Entitie\\Dtos\\ChangePasswordDto.cs",
-              "ToolTip": "C:\\Games\\Projeler\\React\\Entitie\\Dtos\\ChangePasswordDto.cs",
-              "RelativeToolTip": "Entitie\\Dtos\\ChangePasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/react/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-12T12:38:09.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\RepositoryContext.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\RepositoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:36:06.731Z"
+              "WhenOpened": "2025-11-09T23:11:45.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminStudents.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\AdminStudents.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\AdminStudents.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\AdminStudents.jsx",
+              "RelativeToolTip": "react.client\\src\\AdminStudents.jsx",
+              "ViewState": "AgIAACcCAAAAAAAAAAAcwEUCAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:32:57.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Login.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\Login.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Login.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\Login.jsx",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwIcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:01:43.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Register.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\Register.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Register.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\Register.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:01:56.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\App.css",
+              "RelativeDocumentMoniker": "react.client\\src\\App.css",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\App.css",
+              "RelativeToolTip": "react.client\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-28T21:20:20.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentDashboard.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\StudentDashboard.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\StudentDashboard.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\StudentDashboard.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\StudentDashboard.jsx",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAcwJkBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:32:56.67Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ChangePassword.jsx",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\ChangePassword.jsx",
+              "RelativeDocumentMoniker": "react.client\\src\\components\\ChangePassword.jsx",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\ChangePassword.jsx",
+              "RelativeToolTip": "react.client\\src\\components\\ChangePassword.jsx",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwJIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-08T15:02:31.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\StudentRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\StudentRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:58.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:37:11.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowHMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T19:22:34.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAowLcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:43:05.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProjectApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectApplicationService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectApplicationService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectApplicationService.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:12:04.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IStudentService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IStudentService.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IStudentService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:12:01.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:52:20.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProjectApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectApplicationRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:56.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProjectApplicationManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectApplicationManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectApplicationManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectApplicationManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectApplicationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:54.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjectRepositoryExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\ProjectRepositoryExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\ProjectRepositoryExtensions.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\ProjectRepositoryExtensions.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\ProjectRepositoryExtensions.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:51.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:50.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IStudentRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Contracts\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:49.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProjectApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectApplicationRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\ProjectApplicationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:11:47.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:35:10.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProjectManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T19:51:23.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "StudentRepositoryExtensions.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
               "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Repositoriess\\Extensions\\StudentRepositoryExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T14:35:49.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Program.cs",
-              "RelativeDocumentMoniker": "React.Server\\Program.cs",
-              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Program.cs",
-              "RelativeToolTip": "React.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:13:33.454Z"
+              "DocumentIndex": 29,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "react.client\\.vscode\\launch.json",
+              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\.vscode\\launch.json",
+              "RelativeToolTip": "react.client\\.vscode\\launch.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T21:32:31.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 28,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "React.Server\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "React.Server\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAADgv8kAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T17:09:56.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "React.Server\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "React.Server\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:02:59.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Infrastructure\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "React.Server\\Infrastructure\\Extensions\\ServiceExtensions.cs",
@@ -225,31 +557,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "React.Server\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "React.Server\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAowAsAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Program.cs",
+              "RelativeDocumentMoniker": "React.Server\\Program.cs",
+              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Program.cs",
+              "RelativeToolTip": "React.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T19:22:34.235Z"
+              "WhenOpened": "2025-10-28T17:13:33.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "React.Server\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "React.Server\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAvwNcAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T17:09:56.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 32,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\appsettings.json",
               "RelativeDocumentMoniker": "React.Server\\appsettings.json",
@@ -261,43 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "React.Server\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "React.Server\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T10:43:05.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChangePassword.jsx",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\ChangePassword.jsx",
-              "RelativeDocumentMoniker": "react.client\\src\\components\\ChangePassword.jsx",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\ChangePassword.jsx",
-              "RelativeToolTip": "react.client\\src\\components\\ChangePassword.jsx",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAuwLkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-08T15:02:31.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentDashboard.jsx",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\StudentDashboard.jsx",
-              "RelativeDocumentMoniker": "react.client\\src\\components\\StudentDashboard.jsx",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\StudentDashboard.jsx",
-              "RelativeToolTip": "react.client\\src\\components\\StudentDashboard.jsx",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAuwFEBAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-08T15:32:56.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 33,
               "Title": "AuthContext.jsx",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\context\\AuthContext.jsx",
               "RelativeDocumentMoniker": "react.client\\src\\context\\AuthContext.jsx",
@@ -309,43 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdminStudents.jsx",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\AdminStudents.jsx",
-              "RelativeDocumentMoniker": "react.client\\src\\AdminStudents.jsx",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\AdminStudents.jsx",
-              "RelativeToolTip": "react.client\\src\\AdminStudents.jsx",
-              "ViewState": "AgIAALYCAAAAAAAAAAAiwMoCAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-08T15:32:57.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.jsx",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Login.jsx",
-              "RelativeDocumentMoniker": "react.client\\src\\components\\Login.jsx",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Login.jsx",
-              "RelativeToolTip": "react.client\\src\\components\\Login.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-08T15:01:43.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\App.css",
-              "RelativeDocumentMoniker": "react.client\\src\\App.css",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\App.css",
-              "RelativeToolTip": "react.client\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-28T21:20:20.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 36,
               "Title": "eslint.config.js",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\eslint.config.js",
               "RelativeDocumentMoniker": "react.client\\eslint.config.js",
@@ -357,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\vite.config.js",
               "RelativeDocumentMoniker": "react.client\\vite.config.js",
@@ -369,19 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Register.jsx",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Register.jsx",
-              "RelativeDocumentMoniker": "react.client\\src\\components\\Register.jsx",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\src\\components\\Register.jsx",
-              "RelativeToolTip": "react.client\\src\\components\\Register.jsx",
-              "ViewState": "AgIAAB8BAAAAAAAAAADwv0QBAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-08T15:01:56.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "react.client\\src\\main.jsx",
@@ -393,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\src\\index.css",
               "RelativeDocumentMoniker": "react.client\\src\\index.css",
@@ -405,19 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "StudentManager.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
-              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\StudentManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwEAAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T12:35:10.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 44,
               "Title": "20251108184331_start.cs",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Migrations\\20251108184331_start.cs",
               "RelativeDocumentMoniker": "React.Server\\Migrations\\20251108184331_start.cs",
@@ -429,31 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "launch.json",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\.vscode\\launch.json",
-              "RelativeDocumentMoniker": "react.client\\.vscode\\launch.json",
-              "ToolTip": "C:\\Games\\Projeler\\React\\react.client\\.vscode\\launch.json",
-              "RelativeToolTip": "react.client\\.vscode\\launch.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-28T21:32:31.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProjectManager.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
-              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ProjectManager.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAuwEkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:51:23.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\react.client\\index.html",
               "RelativeDocumentMoniker": "react.client\\index.html",
@@ -465,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ServiceManager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\ServiceManager.cs",
@@ -477,19 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Mapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "React.Server\\Mapper\\MappingProfile.cs",
-              "ToolTip": "C:\\Games\\Projeler\\React\\React.Server\\Mapper\\MappingProfile.cs",
-              "RelativeToolTip": "React.Server\\Mapper\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T20:02:59.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "React.Server\\Properties\\launchSettings.json",
@@ -501,19 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
-              "RelativeToolTip": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IProjectService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T19:52:20.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "React.Server.csproj",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\React.Server.csproj",
               "RelativeDocumentMoniker": "React.Server\\React.Server.csproj",
@@ -525,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "IServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IServiceManager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\HP\\Desktop\\Y\u00F6netimSistemi\\Servicess\\Contracts\\IServiceManager.cs",
@@ -537,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Games\\Projeler\\React\\React.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "React.Server\\Controllers\\WeatherForecastController.cs",

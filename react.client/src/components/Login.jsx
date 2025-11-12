@@ -1,18 +1,18 @@
 ﻿import { useState } from 'react';
 
+const LoginIcon = () => (
+    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+    </svg>
+);
+
 const Login = ({ onLogin, onGoToRegister }) => {
-    const [formData, setFormData] = useState({
-        email: '',
-        password: ''
-    });
+    const [formData, setFormData] = useState({ email: '', password: '' });
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
-        });
+        setFormData({ ...formData, [e.target.name]: e.target.value });
         setError('');
     };
 
@@ -21,7 +21,6 @@ const Login = ({ onLogin, onGoToRegister }) => {
         setLoading(true);
         setError('');
 
-        // Basit validasyon
         if (!formData.email || !formData.password) {
             setError('Lütfen tüm alanları doldurun');
             setLoading(false);
@@ -31,22 +30,16 @@ const Login = ({ onLogin, onGoToRegister }) => {
         try {
             const response = await fetch('/api/auth/login', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
                 body: JSON.stringify(formData)
             });
 
             const data = await response.json();
 
-            if (!response.ok) {
-                throw new Error(data.message || 'Giriş başarısız');
-            }
+            if (!response.ok) throw new Error(data.message || 'Giriş başarısız');
 
-            if (onLogin) {
-                onLogin(data);
-            }
+            if (onLogin) onLogin(data);
         } catch (err) {
             setError(err.message);
         } finally {
@@ -55,48 +48,50 @@ const Login = ({ onLogin, onGoToRegister }) => {
     };
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 px-4">
-            <div className="max-w-md w-full bg-white rounded-xl shadow-2xl p-8">
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 px-6">
+            <div className="max-w-md w-full bg-white/10 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/20">
                 <div className="text-center mb-8">
-                    <h2 className="text-3xl font-bold text-gray-800">Giriş Yap</h2>
-                    <p className="text-gray-600 mt-2">Hesabınıza giriş yapın</p>
+                    <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <LoginIcon />
+                    </div>
+                    <h2 className="text-3xl font-extrabold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
+                        Giriş Yap
+                    </h2>
+                    <p className="text-gray-400 mt-2">Hesabınıza giriş yapın</p>
                 </div>
 
                 {error && (
-                    <div className="mb-6 p-4 bg-red-50 border-l-4 border-red-500 text-red-700 rounded">
-                        <p className="text-sm font-semibold">{error}</p>
+                    <div className="mb-6 p-4 bg-red-500/20 border border-red-500/50 rounded-xl flex items-center gap-3">
+                        <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <p className="text-red-300 font-medium">{error}</p>
                     </div>
                 )}
 
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-5">
                     <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                            Email
-                        </label>
+                        <label className="block text-sm font-medium text-gray-300 mb-2">Email</label>
                         <input
                             type="email"
-                            id="email"
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
                             required
-                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                            className="w-full px-5 py-3.5 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-500 focus:ring-4 focus:ring-emerald-500 focus:border-emerald-500 transition"
                             placeholder="ornek@email.com"
                         />
                     </div>
 
                     <div>
-                        <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-2">
-                            Şifre
-                        </label>
+                        <label className="block text-sm font-medium text-gray-300 mb-2">Şifre</label>
                         <input
                             type="password"
-                            id="password"
                             name="password"
                             value={formData.password}
                             onChange={handleChange}
                             required
-                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
+                            className="w-full px-5 py-3.5 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-500 focus:ring-4 focus:ring-emerald-500 focus:border-emerald-500 transition"
                             placeholder="••••••••"
                         />
                     </div>
@@ -104,29 +99,29 @@ const Login = ({ onLogin, onGoToRegister }) => {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 transition disabled:opacity-50 disabled:cursor-not-allowed"
+                        className="w-full py-3.5 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-xl font-bold hover:shadow-xl hover:scale-105 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
                         {loading ? (
-                            <span className="flex items-center justify-center">
-                                <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                </svg>
+                            <>
+                                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
                                 Giriş Yapılıyor...
-                            </span>
+                            </>
                         ) : (
-                            'Giriş Yap'
+                            <>
+                                <LoginIcon />
+                                Giriş Yap
+                            </>
                         )}
                     </button>
                 </form>
 
                 {onGoToRegister && (
                     <div className="mt-6 text-center">
-                        <p className="text-gray-600">
+                        <p className="text-gray-400">
                             Hesabınız yok mu?{' '}
                             <button
                                 onClick={onGoToRegister}
-                                className="text-indigo-600 hover:text-indigo-800 font-semibold hover:underline"
+                                className="text-emerald-400 hover:text-emerald-300 font-semibold hover:underline"
                             >
                                 Kayıt Ol
                             </button>
